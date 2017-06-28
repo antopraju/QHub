@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">QHub</string>
+
+    <string name="sign_out">Sign Out</string>
+    <string name="send_button_label">Send</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_sem1">Sem1</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_sem2">Sem2</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_sem3">Sem3</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_sem4">Sem4</string>
+
+    <string name="category_sem5">Sem5</string>
+
+    <string name="category_sem6">Sem6</string>
+
+    <string name="category_sem7">Sem7</string>
+
+    <string name="category_sem8">Sem8</string>
+
+</resources>

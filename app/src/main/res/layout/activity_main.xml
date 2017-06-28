@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.google.firebase.udacity.friendlychat.MainActivity">
+
+    <TextView
+        android:id="@+id/sem1"
+        style="@style/CategoryStyle"
+        android:background="@color/category_sem1"
+        android:text="@string/category_sem1" />
+
+    <TextView
+        android:id="@+id/sem2"
+        style="@style/CategoryStyle"
+        android:background="@color/category_sem2"
+        android:text="@string/category_sem2" />
+
+    <TextView
+        android:id="@+id/sem3"
+        style="@style/CategoryStyle"
+        android:background="@color/category_sem3"
+        android:text="@string/category_sem3" />
+
+    <TextView
+        android:id="@+id/sem4"
+        style="@style/CategoryStyle"
+        android:background="@color/category_sem4"
+        android:text="@string/category_sem4" />
+
+    <TextView
+        android:id="@+id/sem5"
+        style="@style/CategoryStyle"
+        android:background="@color/category_sem3"
+        android:text="@string/category_sem5" />
+
+    <TextView
+        android:id="@+id/sem6"
+        style="@style/CategoryStyle"
+        android:background="@color/category_sem2"
+        android:text="@string/category_sem6" />
+
+    <TextView
+        android:id="@+id/sem7"
+        style="@style/CategoryStyle"
+        android:background="@color/category_sem1"
+        android:text="@string/category_sem7" />
+
+    <TextView
+        android:id="@+id/sem8"
+        style="@style/CategoryStyle"
+        android:background="@color/category_sem4"
+        android:text="@string/category_sem8" />
+
+
+</LinearLayout>
+</ScrollView>

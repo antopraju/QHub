@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.firebase.udacity.friendlychat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="QHub"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".IntroActivity"
+            android:theme="@style/HiddenTitleTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="QHub"/>
+        <activity
+            android:name=".Sem1"
+            android:label="@string/category_sem1" />
+        <activity
+            android:name=".Sem2"
+            android:label="Sem2" />
+        <activity
+            android:name=".Sem3"
+            android:label="Sem3" />
+        <activity
+            android:name=".Sem4"
+            android:label="Sem4" />
+        <activity
+            android:name=".Sem5"
+            android:label="Sem5" />
+        <activity
+            android:name=".Sem6"
+            android:label="Sem6" />
+        <activity
+            android:name=".Sem7"
+            android:label="Sem7" />
+        <activity
+            android:name=".Sem8"
+            android:label="Sem8" />
+        <service android:name=".MyfirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"></action>
+            </intent-filter>
+        </service>
+        <service android:name=".MyfirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"></action>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
